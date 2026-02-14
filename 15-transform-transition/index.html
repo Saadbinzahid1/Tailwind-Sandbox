@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,18 +8,26 @@
     <title>Transform & Transition</title>
   </head>
   <body>
-    <!-- No Transition -->
+    <!-- Transition -->
     <button
-      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700"
+      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700 hover:opacity-50 transition-all duration-300"
     >
       Click me
     </button>
 
-    <!-- Transition -->
+    <!-- Transform -->
+    <button
+      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700 hover:scale-110"
+    >
+      Click me
+    </button>
 
     <!-- Transition & Transform -->
-
-    <!-- Transform & Transition -->
+    <button
+      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700 hover:skew-x-6 hover:skew-y-6 transition duration-1000"
+    >
+      Click me
+    </button>
   </body>
 </html>
 
