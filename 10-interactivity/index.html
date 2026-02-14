@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -9,23 +9,61 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 m-3 rounded-lg hover:bg-orange-300 hover:text-black"
+    >
+      Submit
+    </button>
 
     <!-- Focus State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 m-3 rounded-lg focus:bg-orange-300 focus:text-black"
+    >
+      Submit
+    </button>
 
     <!-- Active State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 m-3 rounded-lg active:bg-orange-300 active:text-black"
+    >
+      Submit
+    </button>
 
     <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="bg-black shadow-lg shadow-blue-300 group block max-w-xs mx-auto p-6 rounded-lg hover:bg-yellow-500"
+    >
+      <p class="text-white group-hover:text-black">Click Here!</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-300 even:bg-orange-300">Item 1</li>
+      <li class="first:bg-red-300 even:bg-orange-300">Item 2</li>
+      <li class="first:bg-red-300 even:bg-orange-300">Item 3</li>
+      <li class="first:bg-red-300 even:bg-orange-300">Item 4</li>
+      <li class="first:bg-red-300 even:bg-orange-300">Item 5</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
 
     <!-- Cursor -->
-
-    <!-- Resize -->
+    <p class="cursor-wait mt-6">Cursor Wait</p>
+    <p class="cursor-crosshair">Cursor Crosshair</p>
+    <p class="cursor-progress">Cursor Progress</p>
+    <p class="cursor-grab">Cursor Grab</p>
 
     <!-- User Select -->
+    <p class="select-none mt-6">You cant select it</p>
+    <p class="select-auto">Auto select</p>
+    <p class="select-text">Text select</p>
+    <p class="select-all">All select</p>
 
     <!-- Smooth Scroll Example -->
   </body>
