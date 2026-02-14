@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: { extend: { transitionDuration: { 2000: "2000ms" } } },
+      };
+    </script>
     <title>Transform & Transition</title>
   </head>
   <body>
@@ -24,7 +29,7 @@
 
     <!-- Transition & Transform -->
     <button
-      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700 hover:skew-x-6 hover:skew-y-6 transition duration-1000"
+      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700 hover:skew-x-6 hover:skew-y-6 transition duration-2000"
     >
       Click me
     </button>
